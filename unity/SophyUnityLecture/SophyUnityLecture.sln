@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus", "Fungus.csproj", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusExamples", "FungusExamples.csproj", "{fc162d08-59fc-3900-24d4-d814db1afe42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{dbf8dac7-00d2-92c3-7715-917987e09c08}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.UsfxrEditor", "Fungus.UsfxrEditor.csproj", "{9642bce6-3654-c326-e8d7-b0853dfbc5a5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusEditor", "FungusEditor.csproj", "{01ad6bbc-132e-b1c1-bd43-8fb77b96b808}"
@@ -24,6 +26,8 @@ Global
 		{4ce2a269-bbd8-2bf9-6584-6a66c9eef042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fc162d08-59fc-3900-24d4-d814db1afe42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fc162d08-59fc-3900-24d4-d814db1afe42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{dbf8dac7-00d2-92c3-7715-917987e09c08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dbf8dac7-00d2-92c3-7715-917987e09c08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9642bce6-3654-c326-e8d7-b0853dfbc5a5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9642bce6-3654-c326-e8d7-b0853dfbc5a5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01ad6bbc-132e-b1c1-bd43-8fb77b96b808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
