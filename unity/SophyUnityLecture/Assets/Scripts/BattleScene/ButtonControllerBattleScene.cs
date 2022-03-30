@@ -21,6 +21,8 @@ public class ButtonControllerBattleScene : MonoBehaviour
     {
         enemyInfo = new LoadEnemy();//LoadEnemyクラスの実体としてenemyInfo生成
         enemyInfo.Init();//CSVデータの読み込みと変数への格納処理
+
+        ClickShuffleButton();
     }
 
         public void ClickShuffleButton()

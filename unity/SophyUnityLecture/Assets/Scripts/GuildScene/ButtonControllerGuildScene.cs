@@ -10,4 +10,11 @@ public class ButtonControllerGuildScene : MonoBehaviour
         //HomeSceneへ移動
         SceneManager.LoadScene("HomeScene");
     }
+
+        //Goボタンがクリックされた時の処理
+    public void ClickGoButton()
+    {
+        //BattleSceneへ移動
+        SceneManager.LoadScene("BattleScene");
+    }
 }
