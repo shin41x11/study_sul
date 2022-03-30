@@ -1,0 +1,6 @@
+﻿EnemeyID,EnemyName,Hp,ImageAddress,AttackEffectTrigger,,
+1,Phantom,2,Image/pipo-enemy017,50t,,ホラー　050t
+2,アーダン,5,Image/pipo-enemy026b,85,,青剣 85
+3,Jinn-O,3,Image/pipo-enemy050,84,,白剣 84
+4,gidon,10,Image/pipo-enemy044f,122,,牙 122
+5,tande2,4,Image/pipo-enemy041b,84,,白剣 84

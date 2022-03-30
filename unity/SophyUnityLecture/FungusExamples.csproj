@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\FungusExamples\FungusLua\Bindings\CustomScript.cs" />
      <Compile Include="Assets\FungusExamples\FirstPerson\Scripts\ForceCursorVisible.cs" />
      <Compile Include="Assets\FungusExamples\FirstPerson\Scripts\SimpleMouseLook.cs" />
      <Compile Include="Assets\FungusExamples\FirstPerson\Scripts\SimpleForceMovement.cs" />
-     <Compile Include="Assets\FungusExamples\FungusLua\Bindings\CustomScript.cs" />
      <Compile Include="Assets\FungusExamples\MonoBehEvents\SpriteColorChangeFromFungusMouseEvent.cs" />
      <Compile Include="Assets\FungusExamples\FirstPerson\Scripts\LookingAtDoor.cs" />
      <Compile Include="Assets\FungusExamples\FirstPerson\Scripts\FPDemoPriorityRouter.cs" />

@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GuildScene\ButtonControllerGuildScene.cs" />
+     <Compile Include="Assets\Scripts\BattleScene\ButtonControllerBattleScene.cs" />
+     <Compile Include="Assets\Scripts\BattleScene\LoadEnemy.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -765,21 +767,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{e7d6a3f7-fb14-bacf-ce6f-3ede6e92fa6a}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Fungus.csproj">
       <Project>{4ce2a269-bbd8-2bf9-6584-6a66c9eef042}</Project>
       <Name>Fungus</Name>
     </ProjectReference>
-    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
-      <Project>{9dca610a-5121-685a-ed8c-1d8a85a75c40}</Project>
-      <Name>Fungus.LineEndingsEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="FungusEditor.csproj">
       <Project>{01ad6bbc-132e-b1c1-bd43-8fb77b96b808}</Project>
       <Name>FungusEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
-      <Project>{e22e1015-fcbe-6950-b402-20b821af0ebb}</Project>
-      <Name>Fungus.FungusLuaEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj">
       <Project>{25f4d2c6-b74a-bae8-93ab-d7f2984d7327}</Project>
@@ -792,6 +790,14 @@
     <ProjectReference Include="FungusExamples.csproj">
       <Project>{fc162d08-59fc-3900-24d4-d814db1afe42}</Project>
       <Name>FungusExamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
+      <Project>{9dca610a-5121-685a-ed8c-1d8a85a75c40}</Project>
+      <Name>Fungus.LineEndingsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
+      <Project>{e22e1015-fcbe-6950-b402-20b821af0ebb}</Project>
+      <Name>Fungus.FungusLuaEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
